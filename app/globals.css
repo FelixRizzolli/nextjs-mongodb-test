@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+main {
+  margin: 0em 4em 2em 4em;
+  background-color: gray;
+  padding: 1em;
+  min-height: 20em;
+}
