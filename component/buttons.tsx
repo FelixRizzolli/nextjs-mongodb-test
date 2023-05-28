@@ -15,7 +15,7 @@ export function SignInButton() {
   if (status === 'authenticated') {
     return (
         <>
-            <Link href={`/admin`}>
+            <Link href={'/admin'}>
                 <Image
                 src={session.user?.image ?? '/vercel.svg'}
                 width={32}
