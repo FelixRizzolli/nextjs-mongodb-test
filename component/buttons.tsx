@@ -14,17 +14,14 @@ export function SignInButton() {
 
   if (status === 'authenticated') {
     return (
-        <>
-            <Link href={'/admin'}>
-                <Image
-                src={session.user?.image ?? '/vercel.svg'}
-                width={32}
-                height={32}
-                alt="Your Name"
-                />
-            </Link>
-            <SignOutButton />
-        </>
+      <>
+        <Link href={'/admin'}>
+          <Image src={session.user?.image ?? '/vercel.svg'}
+            width={32} height={32} alt="Your Name"
+          />
+        </Link>
+        <SignOutButton />
+      </>
     );
   }
 

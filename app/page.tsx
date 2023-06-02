@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Homepage',
-    description: 'This is the homepage.',
+  title: 'Homepage',
+  description: 'This is the homepage.',
 };
 
 export default function Home() {

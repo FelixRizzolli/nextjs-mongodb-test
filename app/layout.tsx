@@ -21,7 +21,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <NavMenu />
           {children}
-          </body>
+        </body>
       </html>
     </AuthProvider>
   );
